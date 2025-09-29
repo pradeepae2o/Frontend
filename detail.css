@@ -1,0 +1,13 @@
+body
+{
+background-image: wp7728125.jpg;
+}
+.detail
+{
+ left: 300px;
+ 
+}
+label,input,select
+{
+display: block;
+}

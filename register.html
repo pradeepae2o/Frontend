@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>RegisterForm</h1>
+        <hr>
+        <form id="Reg" method="post" onclick="submit()">
+            
+            <table class="table-container">
+                <tr>
+                    <td><label for="name">FullName</label></td>
+                    <td><input type="text" id="Name"required></td>
+                </tr>
+                <tr>
+                    <td><label for="MailId">MailId</label></td>
+                    <td><input type="text" id="MailId"required></td>
+                </tr>
+                <tr>
+                    <td><label for="Password">Password</label></td>
+                    <td><input type="text" id="Password"required></td>
+                </tr>
+                <tr>
+                    <td><label for="ConfirmPassword">ConfirmPassword</label></td>
+                    <td><input type="text" id="ConfirmPassword"required></td>
+                </tr>
+                <tr>
+                    <td><label for="File">ResumeFile</label></td>
+                    <td><input type="file" id="File"></td>
+                </tr>
+            </table>
+        <button type="submit" class="btn">Submit</button>
+    </form>
+    </div>
+</body>
+</html>
